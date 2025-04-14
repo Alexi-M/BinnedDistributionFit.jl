@@ -3,11 +3,26 @@ uuid = "f02bb49f-f210-4a55-8a0e-128c45691c98"
 authors = ["Moelf <proton@jling.dev> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+DensityInterface = "b429d917-457f-4dbc-8f4c-0cc954292b1d"
+FHist = "68837c9b-b678-4cd5-9925-8a54edc8f695"
+Minuit2 = "37821647-3276-4ed8-9a4e-bc9886b3c106"
+NumericalDistributions = "13416b18-ec19-40e4-a123-e345ab61da74"
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
+Trapz = "592b5752-818d-11e9-1e9a-2b8ca4a44cd1"
+
 [compat]
+DensityInterface = "0.4.0"
+FHist = "0.11.9"
+Minuit2 = "0.3.0"
+NumericalDistributions = "0.1.2"
+QuadGK = "2.11.2"
+Trapz = "2.0.3"
 julia = "1.6.7"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+FHist = "68837c9b-b678-4cd5-9925-8a54edc8f695"
 
 [targets]
-test = ["Test"]
+test = ["Test", "FHist"]
