@@ -1,8 +1,9 @@
 module BinnedDistributionFit
 
+import Distributions: pdf, cdf
+
 export ExtendPdf, RooFitNLL, RooFitNLL_functor, pdf
 
-import NumericalDistributions: NumericallyIntegrable, pdf, cdf
 using FHist: Hist1D, binedges, bincenters, bincounts
 using QuadGK: quadgk    
 using Trapz: trapz
