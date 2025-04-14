@@ -1,0 +1,13 @@
+name = "BinnedDistributionFit"
+uuid = "f02bb49f-f210-4a55-8a0e-128c45691c98"
+authors = ["Moelf <proton@jling.dev> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
