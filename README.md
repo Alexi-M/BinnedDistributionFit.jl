@@ -20,8 +20,9 @@ For main.py and main.jl (just the ExtendPdf)
 if you change the observed bincounts from `[2.0, 4.0]` to `[4.0, 8.0]`, the NLL becomes `1.3655798792934464`
 
 If on top of that, you also change `p0` from 2.0 to 4.0, you get NLL `-4.952186287425897`
-![image](https://gist.github.com/user-attachments/assets/87f7926f-9098-4b94-be74-98c6db2fe0d6)
+
+![](https://gist.github.com/user-attachments/assets/87f7926f-9098-4b94-be74-98c6db2fe0d6)
 
 ## Math for sum of two PDFs fitting to data: (i.e. `SUM::` in RooFit)
 
-![image](https://gist.github.com/user-attachments/assets/b90aaf38-dbf8-49b4-b564-152f54b9cc38)
+![](https://gist.github.com/user-attachments/assets/b90aaf38-dbf8-49b4-b564-152f54b9cc38)
