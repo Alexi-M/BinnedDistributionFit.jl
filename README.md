@@ -45,8 +45,10 @@ if you change the observed bincounts from `[2.0, 4.0]` to `[4.0, 8.0]`, the NLL 
 
 If on top of that, you also change `p0` from 2.0 to 4.0, you get NLL `-4.952186287425897`
 
-![](https://gist.github.com/user-attachments/assets/87f7926f-9098-4b94-be74-98c6db2fe0d6)
+![image](https://github.com/user-attachments/assets/9af8974a-74f9-406d-b822-dc23973fd13f)
+
 
 ## Math for sum of two PDFs fitting to data: (i.e. `SUM::` in RooFit)
 
-![](https://gist.github.com/user-attachments/assets/b90aaf38-dbf8-49b4-b564-152f54b9cc38)
+![image](https://github.com/user-attachments/assets/5ec32c86-69df-4895-b8b1-7c179c05fb67)
+
